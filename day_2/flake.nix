@@ -25,8 +25,6 @@
             supportedGhcVersions = [ "912" ];
           })
           hlint
-          haskellPackages.ghci-dap
-          haskellPackages.haskell-debug-adapter
         ];
       };
 

@@ -19,6 +19,7 @@
       devShells.haskell = pkgs.mkShell {
         buildInputs = with pkgs; [
           haskell.compiler.ghc9122
+          stack
           cabal-install
           (haskell-language-server.override {
             supportedGhcVersions = [ "912" ];
